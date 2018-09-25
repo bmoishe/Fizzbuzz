@@ -5,14 +5,7 @@ def fizzbuzz(number)
     return 'fizz'
   elsif number % 5 == 0
     return 'buzz'
-  else 
+  else
     return number
   end
 end
-
-i = 1
-while i <= 20
-  puts fizzbuzz(i)
-  i+= 1
-end
-  
